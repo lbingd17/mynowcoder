@@ -12,4 +12,7 @@ public class Reverse {
         }
         return sb.toString();
     }
+        public static String reverse2(String str){  
+            return new StringBuilder(str).reverse().toString();  
+        }  
 }
