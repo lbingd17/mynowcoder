@@ -1,5 +1,6 @@
 import java.util.*;
-// ／／牛客810369号
+// ／／牛客810369号 从根节点深度遍历到两个节点，并把路径分别保存到两个栈中，然后对比两个栈，找到第一个分割节点
+//good
 public class Solution {
      
     public boolean trace(char[][] tree, boolean[] visited, Stack<Integer> stack, int level, int x) {
@@ -65,7 +66,7 @@ public class Solution {
             min = astack;
         }
  
-        int dis = max.si敏感词.size();
+        int dis = max.size() - min.size();
  
         while (dis-- > 0) {
             max.pop();
