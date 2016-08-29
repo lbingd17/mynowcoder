@@ -7,6 +7,7 @@ public class ListNode {
         this.val = val;
     }
 }*/
+// 特殊情况：先判断链表大小小于k，返回null
 public class Solution {
     public ListNode FindKthToTail(ListNode list,int k) {
 if (list == null)   return list;
