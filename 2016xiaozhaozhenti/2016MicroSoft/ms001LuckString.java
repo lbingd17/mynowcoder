@@ -1,3 +1,10 @@
+/**
+ A string s is LUCKY if and only if 
+ the number of different characters in s is a fibonacci number. 
+ Given a string consisting of only lower case letters , 
+ output all its lucky non-empty substrings in lexicographical order. 
+ Same substrings should be printed once. 
+**/
 import java.util.*;
  
 public class Main {
