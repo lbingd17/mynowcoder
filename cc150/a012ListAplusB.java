@@ -1,5 +1,6 @@
 import java.util.*;
 /*
+三元运算符
 public class ListNode {
     int val;
     ListNode next = null;
