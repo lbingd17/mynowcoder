@@ -30,7 +30,9 @@ public class TwoStacks {
       while(buffer.size() > 0){
           if(ascStack.isEmpty() || buffer.peek() >= ascStack.peek()){
               ascStack.push(buffer.pop());
-          }else{
+          }else{//一旦遇到不符合的情况，将asc中所有大于buftop的元素亚入buffer，
+          //然后将buftop压入asc
+          //再从buffer中将原来asc里的个体转入asc
               bufTop = buffer.pop();
               int count_curBuffer = buffer.size();
               while(!ascStack.isEmpty() && bufTop < ascStack.peek()){
