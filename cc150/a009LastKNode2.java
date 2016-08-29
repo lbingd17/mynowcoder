@@ -14,7 +14,7 @@ public class ListNode {
         this.val = val;
 
     }
-
+快慢指针法
 }*/
 
 public class Solution {
