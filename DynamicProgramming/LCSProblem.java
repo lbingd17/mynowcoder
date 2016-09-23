@@ -1,3 +1,4 @@
+//http://blog.csdn.net/biangren/article/details/8038605
 public class LCSProblem   
 {  
     public static void main(String[] args)  
